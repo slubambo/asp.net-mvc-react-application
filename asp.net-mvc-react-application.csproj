@@ -6,5 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>asp.net_mvc_react_application</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="C1.AspNetCore.Mvc" Version="3.0.20222.340" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
 
 </Project>
