@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj": {}
+    "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj": {
+    "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
+        "projectUniqueName": "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
         "projectName": "asp.net-mvc-react-application",
-        "projectPath": "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
+        "projectPath": "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\obj\\",
+        "outputPath": "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "C1.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[3.0.20222.340, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

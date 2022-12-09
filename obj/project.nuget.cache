@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "dJUv49Nls4YHPNk47rG/qoCj5xHcE+MnoXkoqeWP8TlQVKz6kKsrYxlTb8A+Vg6rqapSE+u+nZvqy9S4+Hg+mg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
+  "dgSpecHash": "6WI1KBZ8DxRJwbgG2hKaUzX+ecUfNY/ZKPV/S9cqMQkqPfbHLUwSl/ckXJYM8ul2i+MolbI90CBmtOlbOCSAAw==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\user\\PRIVATE\\asp.net-mvc-react-application\\asp.net-mvc-react-application.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'C1.AspNetCore.Mvc.3.0.20222.340' from 'https://api.nuget.org/v3-flatcontainer/c1.aspnetcore.mvc/3.0.20222.340/c1.aspnetcore.mvc.3.0.20222.340.nupkg'.\r\nNo such host is known. (api.nuget.org:443)\r\n  No such host is known."
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.AspNetCore.Mvc.Core.2.2.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg'.\r\nNo such host is known. (api.nuget.org:443)\r\n  No such host is known."
+    }
+  ]
 }
